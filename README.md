@@ -33,6 +33,7 @@ N	Adenine / Guanine / Cytosine / Thymine
 This formula was published at https://ucmp.berkeley.edu/museum/MPL/oligosinfo.html
 
 > Tm ≈ (81.5 + (16.6 * log10([Na+])) + (0.41 * (%GC))) - (675 / (oligonucleotide length))
+
 > where [Na+] is the molar salt concentration, n = number of bases in the oligonucleotide
 
 This formula is a common empirical approximation used to estimate the melting temperature (Tm) of short DNA oligonucleotides (like primers or probes). It takes into account the length of the oligonucleotide, its GC content, and the salt concentration in the solution. Let's break down each component:
