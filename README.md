@@ -30,9 +30,10 @@ N	Adenine / Guanine / Cytosine / Thymine
 
 **Formula**:
 
-The formula is based on the "Wallace Rule" or a basic salt-corrected Tm formula based on GC content and length.
+This formula was published at https://ucmp.berkeley.edu/museum/MPL/oligosinfo.html
 
 > Tm ≈ (81.5 + (16.6 * log10([Na+])) + (0.41 * (%GC))) - (675 / (oligonucleotide length))
+> where [Na+] is the molar salt concentration, n = number of bases in the oligonucleotide
 
 This formula is a common empirical approximation used to estimate the melting temperature (Tm) of short DNA oligonucleotides (like primers or probes). It takes into account the length of the oligonucleotide, its GC content, and the salt concentration in the solution. Let's break down each component:
 
@@ -55,12 +56,7 @@ log10([Na+]): The logarithm base 10 of the molar concentration of monovalent cat
 675: An empirical constant related to the energetic cost of initiating helix formation.
 (oligonucleotide length): The number of bases in the oligonucleotide sequence. Longer oligonucleotides have more base pairs and thus require more energy (higher temperature) to completely separate. This term accounts for the increased stability with length.
 
-In summary, this formula attempts to predict the melting temperature of an oligonucleotide by considering the fundamental factors that influence DNA duplex stability:
-
-* Base composition (GC content): The number of strong G-C bonds.
-* Solution environment (salt concentration): The charge shielding effect on the DNA backbone.
-* Oligonucleotide length: The total number of stabilizing interactions.
-(Explanation of the formula terms were generated using Gemini Flash 2.0)
+(Explanation of the formula terms were generated using Gemini Flash 2.0, however the formula came from https://ucmp.berkeley.edu/museum/MPL/oligosinfo.html)
 
 There are many oligo melt temperature calculator apps online and they may give different results depending on the formula used. For example, the very simple one that many of us may have learned in school was this one: (Tm = 4(G+C) + 2(A+T)) from 1962 (Marmur and Doty (1962)). And it was the later publications, that melting temperature calculations started taking length and salt concentration into consideration. 
 
