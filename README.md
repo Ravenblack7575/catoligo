@@ -62,5 +62,5 @@ In summary, this formula attempts to predict the melting temperature of an oligo
 * Oligonucleotide length: The total number of stabilizing interactions.
 (Explanation of the formula terms were generated using Gemini Flash 2.0)
 
-There are many oligo melt temperature calculator apps online and they may give different results depending on the formula used. For example, the very simple one that many of us may have learned in school was this one: (Tm = 4(G+C) + 2(A+T)) from 1962 (Marmur and Doty (1962)). And it was the later publications, that melting temperature calculations started taking length and salt concentration into account. 
+There are many oligo melt temperature calculator apps online and they may give different results depending on the formula used. For example, the very simple one that many of us may have learned in school was this one: (Tm = 4(G+C) + 2(A+T)) from 1962 (Marmur and Doty (1962)). And it was the later publications, that melting temperature calculations started taking length and salt concentration into consideration. 
 
