@@ -30,7 +30,7 @@ N	Adenine / Guanine / Cytosine / Thymine
 
 **Formula**:
 
-This formula was published at https://ucmp.berkeley.edu/museum/MPL/oligosinfo.html
+The formula used in the script is from https://ucmp.berkeley.edu/museum/MPL/oligosinfo.html
 
 > Tm ≈ (81.5 + (16.6 * log10([Na+])) + (0.41 * (%GC))) - (675 / (oligonucleotide length))
 
