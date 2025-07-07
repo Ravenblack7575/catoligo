@@ -1,8 +1,8 @@
 # catoligo
 
 Libraries:
-Python 3.12
-Math
+- Python 3.12
+- Math
 
 ### Usage
 
