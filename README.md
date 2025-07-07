@@ -1,5 +1,15 @@
 # catoligo
 
+Libraries:
+Python 3.12
+Math
+
+### Usage
+
+This script can be run in environment with python installed or through the Jupyter Notebook.
+
+### Information
+
 Catoligo is a simple python script for calculating melting temperature of short oligo sequences (e.g. primers) of up to 50 nucloeotides in length.
 
 Sequences may contain up to 3 degenerate bases. (Primers and probes with many degenerate bases are very difficult to optimise and imho, misses the point that it is supposed to have a targeted objective. 
