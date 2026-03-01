@@ -73,18 +73,5 @@ There are many oligo melt temperature calculator apps online and they may give d
 
 <BR>
 
-## Other related oligo work tools
 
-### Blastcheck v4
-
-Takes blast results of primers and probes to check what targets are picked up by an assay.
-
-Dependencies: 
-- Python 3.11
-- Pandas
-- Regex
-
-Version 4 (16 September 2025) 
-
-It needs BlastN results descriptions csv file. So get the blast results of the forward primer, reverse primer and probe sequences. Download the descriptions.csv. The script should output a csv file with the list of accession numbers and strain names of targets that can be picked up by the primers and probe.
 
