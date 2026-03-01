@@ -36,7 +36,7 @@ N	Adenine / Guanine / Cytosine / Thymine
 
 ```
 
-**Note**: in general degenerate bases, make it very difficult to calculate Tm and downstream more difficult to optimise the assay because of the wide range of possibilities and combination of bases in the oligo sequence pool. Thus it is not advisable to use too many degenerate bases in your primer or probe sequences.
+**Note**: In general, degenerate bases, make it very difficult to calculate Tm and downstream more difficult to optimise the assay because of the wide range of possibilities and combination of bases in the oligo sequence pool. 
 
 **Formula**:
 
